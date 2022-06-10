@@ -1,1 +1,24 @@
-<p>no-comunes works!</p>
+<div class="text-layout">
+  <h1>Decimal Pipe</h1>
+  <p>Pipes incluidos en angular - Usualmente en el Common Module.</p>
+</div>
+<div class="grid">
+  <div class="col-6">
+    <p-card header="Slice Pipe">
+      <ul>
+        <li>
+          <b>Normal</b>
+          {{ clientes }}
+        </li>
+        <li>
+          <b>slice:0:2</b>
+          {{ clientes | slice:0:2 }}
+        </li>
+        <b>slice:1:4</b>
+        <li>
+          {{ clientes | slice:1:4 }}
+        </li>
+      </ul>
+    </p-card>
+  </div>
+</div>

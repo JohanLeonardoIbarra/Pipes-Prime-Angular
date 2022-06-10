@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NoComunesComponent implements OnInit {
 
+  clientes:string[] = ["maria", "pedro", "juan", "jose", "johan", "pablo"];
+
   constructor() { }
 
   ngOnInit(): void {
