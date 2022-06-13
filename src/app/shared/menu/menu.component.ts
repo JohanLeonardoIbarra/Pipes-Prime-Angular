@@ -28,11 +28,6 @@ export class MenuComponent implements OnInit {
             routerLink: 'numeros',
           },
           {
-            label: 'Ordenar',
-            icon: 'pi pi-sort-amount-down',
-            routerLink: 'ordenar',
-          },
-          {
             label: 'No Comunes',
             icon: 'pi pi-globe',
             routerLink: 'nocomunes',
@@ -42,6 +37,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'Pipes Custom',
         icon: 'pi pi-cog',
+        routerLink: 'ordenar',
       },
     ];
   }
